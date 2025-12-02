@@ -1,0 +1,53 @@
+# Идея
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+
+# Eclipse
+.classpath
+.factorypath
+.project
+.settings/
+.apt_generated/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Временные файлы
+tmp/
+temp/
+
+# Логи - игнорируем всё внутри logs, кроме composite.log
+logs/*
+!logs/composite.log
+
+# Системные файлы
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# Бинарные файлы
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Кэши зависимостей
+**/.gradle/
+**/build/
